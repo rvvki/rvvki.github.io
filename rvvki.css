@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(20, 19, 26);
+}
+
+.text {
+    animation: animate 7s infinite alternate;
+    content: "";
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em #636363,
+                 0em 0em 0.5em #fff,
+                 1.5em 1.5em rgba(71, 57, 148, 0.2),
+                 1.6em 1.6em rgba(71, 57, 148, 0.1),
+                 1.5em 1.5em 0.4em rgba(71, 57, 148, 0.4);
+}
+.hide {
+    color: #14131a;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 27%;
+    left: 88%;
+    transition: 0.3s;
+    font-size: 10px;
+}
+
+.hide:hover{
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 27%;
+    left: 88%;
+    text-shadow: 0em 0em 0.4em #fff;
+}
+
+.discord{
+    color: #14131a;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 95%;
+    left: 95%;
+    transition: 0.3s;
+}
+
+.discord:hover{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 95%;
+    left: 95%;
+    text-shadow: 0em 0em 0.4em #fff;
+}
+  
+
+
+@keyframes animate {
+    20% {
+        opacity: 1;
+    }
+    21% {
+        opacity: 0;
+    }
+    22% {
+        opacity: 1;
+    }
+    23% {
+        opacity: 0;
+    }
+    59%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    61%{
+        opacity: 0;
+    }
+    62%{
+        opacity: 1;
+    }
+    71%{
+        opacity: 1;
+    }
+    72%{
+        opacity: 0;
+    }
+    73%{
+        opacity: 1;
+    }
+
+}
